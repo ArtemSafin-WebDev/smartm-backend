@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_home_rooms",
+  "info": {
+    "displayName": "Чистые помещения",
+    "icon": "ruler-combined",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "smallTitle": {
+      "type": "string"
+    },
+    "largeTitle": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "features": {
+      "displayName": "features",
+      "type": "component",
+      "repeatable": true,
+      "component": "home.features"
+    }
+  }
+}

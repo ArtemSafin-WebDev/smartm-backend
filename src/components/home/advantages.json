@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_home_advantages",
+  "info": {
+    "displayName": "Преимущества",
+    "icon": "grin-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

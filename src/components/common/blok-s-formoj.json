@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_common_blok_s_formoj",
+  "info": {
+    "displayName": "Блок с формой",
+    "icon": "allergies",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "successHeading": {
+      "type": "string"
+    },
+    "successText": {
+      "type": "text"
+    }
+  }
+}
